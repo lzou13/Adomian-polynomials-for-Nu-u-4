@@ -1,7 +1,7 @@
 clear all
-% 定义符号数组u(100,1)
+% Define u(100,1)
 u = sym('u',[100,1]);
-% 确定An阶数
+% nth adomian polynomial
 nth=20
 
 
