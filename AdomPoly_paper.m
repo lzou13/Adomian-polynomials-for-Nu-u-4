@@ -1,4 +1,4 @@
-function sol=AdomPoly(expression,nth)
+function sol=AdomPoly_paper(expression,nth)
 % Coded by H. F. & H. A., Feb, 2011
 % clear all
 % syms u0 u1 u2
