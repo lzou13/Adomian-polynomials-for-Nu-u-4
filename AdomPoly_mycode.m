@@ -1,6 +1,7 @@
 clear all
 % Define u(100,1)
 u = sym('u',[100,1]);
+du = sym('du',[100,1]);
 % nth adomian polynomial
 nth=20
 
@@ -21,7 +22,7 @@ for j=0:i
             if l+1<=0 
                 continue
             end
-            temp=temp+u(j+1)*u(k+1)*u(l+1)*u(m+1);
+            temp=temp+u(j+1)*u(k+1)*u(l+1)*du(m+1);
         end
     end
 end
